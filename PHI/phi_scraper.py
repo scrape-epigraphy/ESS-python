@@ -1,3 +1,8 @@
+# ------------------------------------
+
+__author__ = "Kaan Eraslan <kaaneraslan@gmail.com>"
+__license__ = "MIT License, See LICENSE."
+
 # Packages ------------------------
 
 import bs4
@@ -6,9 +11,9 @@ import json
 import unicodecsv as csv
 from greek_accentuation.characters import base, strip_accents, strip_breathing, strip_length
 import time
+import re
 
 # ------------------------------------------
-
 
 def get_page_url_text(url, header):
     """
