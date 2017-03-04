@@ -11,7 +11,6 @@ import json
 import unicodecsv as csv
 from greek_accentuation.characters import base, strip_accents, strip_breathing, strip_length
 import time
-import re
 
 # ------------------------------------------
 
